@@ -33,3 +33,54 @@ excuses:
     - This is the first time anyone has mentioned it
     - The WYSIWYG editor must have added that
     - You must be running the wrong version
+    - The tests didn't cover that edge case
+    - I haven't pushed the fix up yet
+    - The error means it has processed correctly
+    - I couldn't recreate that error
+    - It worked before
+    - It has always worked before
+    - Nothing has changed in the code
+    - That is just a placeholder
+    - It has never done that before
+    - The 3rd party API must be down
+    - Our code quality is up to industry standards
+    - It must be a bug with the programming language
+    - That is a known bug with the programming language
+    - That is a known bug with the framework
+    - That feature is part of phase two
+    - That feature is set to low priority
+    - That feature is on our roadmap
+    - That feature is a nice to have
+    - It is an intermittent error, just press refresh
+    - Have you cleared your cache?
+    - It must be a browser cache error
+    - That is a problem with our host
+    - That is an issue with a legacy system
+    - That has always worked that way
+    - That was like that before I started here
+    - That is a training issue
+    - There isn't the budget to address that at the moment
+    - I've not been able to recreate the issue
+    - That's been fixed, but the code still has to be released
+    - That's been fixed on another branch
+    - The developer who coded that doesn't work here now
+    - That is part of the old system
+    - I didn't write that part of the system
+    - The fix for that is in progress
+    - Have you updated your browser?
+    - Have you updated your OS?
+    - It is unlikely to happen again
+    - It was probably a race condition
+    - That is a vendor issue
+    - The documenation for that feature is wrong
+    - It's not a bug, it's a feature
+    - That is how we were asked to build it
+    - The program was never meant to work that way
+    - We were never asked to make it do that
+    - It must be a Y2K issue
+    - It must be a timezone issue
+    - It must be a unicode issue
+    - Your internet connection mustn't be working
+    - You're doing it wrong
+    - Someone must have changed my code
+    - There must be a problem with the virtual machine
