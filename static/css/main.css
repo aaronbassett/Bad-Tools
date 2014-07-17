@@ -1,0 +1,32 @@
+body {
+  background: #0ac5f4;
+  color: #ffffff;
+  margin-top: 100px;
+}
+.content {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -155px;
+}
+h1 {
+  background: -webkit-linear-gradient(#9ce8fb, #ffffff);
+  -webkit-background-clip: text;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  -webkit-text-fill-color: transparent;
+}
+footer {
+  font-family: 'Playball', cursive;
+  margin-top: 50px;
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+footer .♥ {
+  color: pink;
+}
+footer a {
+  color: #ffffff;
+}

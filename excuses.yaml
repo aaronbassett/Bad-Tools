@@ -1,0 +1,35 @@
+excuses:
+    - It's a browser issue
+    - I wasn't told how to do that so I had to guess which way they wanted it
+    - The accounting department made me put that there
+    - The sales department made me do it that way
+    - The accounting department made me do it that way
+    - The sales department made me put that there
+    - The accounting department asked it to be that way
+    - The sales department asked for it to be that way
+    - That must be an accounting department error
+    - That must be a sales department error
+    - I had too many projects so I had to rush them all
+    - I'm still working on that
+    - Why do they want it that way?
+    - The failovers must have failed as well
+    - That's a character encoding issue
+    - I thought that was signed off?
+    - I've never seen that happen before
+    - It works in my dev enviroment
+    - You mustn't have got my email about that, check your spam
+    - That's just temporary, we're still working on it
+    - I did a quick fix for that already, it must have been reverted
+    - It must be a virus on your system
+    - There must have been a miscommunication on the requirements
+    - We weren't given enough time to write unittests
+    - It's always worked that way
+    - That's a hardware issue
+    - That's an architecture issue
+    - That's a data issue
+    - That's a user issue
+    - That's a support issue
+    - There must be an error with your data
+    - This is the first time anyone has mentioned it
+    - The WYSIWYG editor must have added that
+    - You must be running the wrong version

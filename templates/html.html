@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title></title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="//rawgithub.com/davatron5000/FitText.js/master/jquery.fittext.js"></script>
+
+    <link href='{{ url_for('static', filename='css/main.css') }}' rel='stylesheet' type='text/css'>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script>
+    $(document).ready(function(){
+        $("h1").fitText(1.2);
+    })
+    </script>
+</head>
+
+<body>
+    <!--
+    Hello! You can do more than just GET this page.
+    Have a look at the Github repo for more information, it'll save you
+    a lot of time if you're trying to figure out how to scrape this page.
+
+    https://github.com/aaronbassett/Bad-Tools
+    -->
+    <h1>{{ excuse }}</h1>
+
+    <footer>
+        <nav>
+            <p>Made with <span class="♥">♥</span> by
+            <a href="https://twitter.com/aaronbassett" title="Follow me on twitter. Wha do you have to lose?">@aaronbassett</a>.
+            You can fork it on <a href="https://github.com/aaronbassett/Bad-Tools">Github</a>.</p>
+        </nav>
+    </footer>
+</body>
+</html>
