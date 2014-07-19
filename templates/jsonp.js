@@ -1,1 +1,1 @@
-excuses('{"excuse": "{{ excuse }}"}');
+excuses({"excuse": "{{ excuse }}"});
