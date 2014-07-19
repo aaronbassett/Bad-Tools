@@ -1,3 +1,5 @@
+# Pull requests with new excuses are highly welcome
+
 excuses:
     - It's a browser issue
     - I wasn't told how to do that so I had to guess which way they wanted it
@@ -63,7 +65,7 @@ excuses:
     - I've not been able to recreate the issue
     - That's been fixed, but the code still has to be released
     - That's been fixed on another branch
-    - The developer who coded that doesn't work here now
+    - The developer who coded that doesn't work here anymore
     - That is part of the old system
     - I didn't write that part of the system
     - The fix for that is in progress
@@ -86,3 +88,23 @@ excuses:
     - There must be a problem with the virtual machine
     - We have to do it that way for security reasons
     - I just need one more day to work on that
+    - Have you tried refreshing your browser?
+    - That's a problem with a third party application
+    - That code was written by the last guy
+    - Is that not supposed to happen?
+    - It was such a simple change I didn't think it needed testing
+    - What did you do wrong to make it crash?
+    - The specification contained conflicting requirements
+    - The specification was ambiguous
+    - It must be a race condition
+    - The file must have corrupted
+    - There is nothing in my error logs
+    - You must be looking at the wrong version
+    - Your browser must be caching the old version
+    - My code is compiling
+    - I was sure that had been fixed
+    - The design makes it difficult to build this correctly
+    - It works perfectly on my machine
+    - I never recevied a ticket for that
+    - It must be missing some dependencies
+    - We outsourced that part
