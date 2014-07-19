@@ -6,7 +6,6 @@ from flask import Flask, jsonify, request, Response, render_template
 from flask.ext.classy import FlaskView
 
 app = Flask(__name__)
-app.debug = True
 
 
 class AppView(FlaskView):
@@ -47,4 +46,5 @@ class AppView(FlaskView):
 AppView.register(app)
 
 if __name__ == '__main__':
+    app.debug = True
     app.run()
