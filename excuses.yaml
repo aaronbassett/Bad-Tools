@@ -9,10 +9,10 @@ excuses:
     - The sales department asked for it to be that way
     - That must be an accounting department error
     - That must be a sales department error
-    - I had too many projects so I had to rush them all
+    - I had too many projects so I had to rush that feature
     - I'm still working on that
     - Why do they want it that way?
-    - The failovers must have failed as well
+    - The failovers must have failed
     - That's a character encoding issue
     - I thought that was signed off?
     - I've never seen that happen before
@@ -84,3 +84,5 @@ excuses:
     - You're doing it wrong
     - Someone must have changed my code
     - There must be a problem with the virtual machine
+    - We have to do it that way for security reasons
+    - I just need one more day to work on that
