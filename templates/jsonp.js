@@ -1,0 +1,1 @@
+excuses('{"excuse": "{{ excuse }}"}');

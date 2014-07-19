@@ -29,6 +29,18 @@ XML
      -m 30 \
      -v \
 
+JSONP
+-----
+
+    curl -X GET "http://coderexcuses.com/" \
+     -H "Accept: application/javascript" \
+     -m 30 \
+     -v \
+
+Or you can pass in the query string argument `?jsonp`
+
+    <script src="http://coderexcuses.com/?jsonp"></script>
+
 And of course HTML
 ------------------
 

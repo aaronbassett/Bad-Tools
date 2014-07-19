@@ -34,6 +34,11 @@ class AppView(FlaskView):
                 render_template('xml.xml', excuse=self._excuse),
                 mimetype='text/xml'
             )
+        elif self._accepts("application/javascript") or "jsonp" in request.args:
+            return Response(
+                render_template('jsonp.js', excuse=self._excuse),
+                mimetype='application/javascript'
+            )
         elif self._accepts("text/plain"):
             return Response("Hello world", mimetype='text/plain')
         else:
