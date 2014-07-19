@@ -1,13 +1,16 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 body {
   background: #0ac5f4;
   color: #ffffff;
-  margin-top: 100px;
 }
-.content {
-  min-height: 100%;
-  height: auto !important;
+.wrapper {
+  width: 100%;
   height: 100%;
-  margin: 0 auto -155px;
 }
 h1 {
   background: -webkit-linear-gradient(#9ce8fb, #ffffff);
