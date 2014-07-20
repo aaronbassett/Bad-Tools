@@ -59,14 +59,26 @@ The site also supports **https**, but you'll have to ignore the certificate.
 
     curl "https://www.codingexcuses.com/" -H "Accept: text/plain" --insecure
 
-Configuration
--------------
+Install your own
+----------------
 
-You'll need to set an environment variable `SECRET_KEY` for the sessions to work.
+    git clone git@github.com:aaronbassett/Bad-Tools.git
+    cd Bad-Tools
+    virtualenv env
+    source env/bin/activate
+    pip install -r requirements.txt
+    export SECRET_KEY="ct=!)09l4(q*z3uf(+c9ra7@(10ni!x1%f6vlxc"
+    # don't use that key though for obvious reasons
+    python views.py
 
-    export SECRET_KEY="ct=!)09l4)hl8gmwgid%(q*z3uf(+c9ra7@(10ni!x1%f6vlxc"
+You can also deploy to Heroku
 
-_don't use that key though for obvious reasons_
+    heroku login
+    heroku create
+    git push heroku master
+    heroku config:set SECRET_KEY="ct=!)09l4(q*z3uf(+c9ra7@(10ni!x1%f6vlxc"
+    heroku ps:scale web=1
+    heroku open
 
 License
 -------
