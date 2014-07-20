@@ -11,60 +11,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/env\/lib\/python2.7\/site-packages\/flask\/testsuite\/templates\/_macro.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/flask\/testsuite\/templates\/_macro.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/env\/lib\/python2.7\/site-packages\/flask\/testsuite\/templates\/context_template.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/flask\/testsuite\/templates\/context_template.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/env\/lib\/python2.7\/site-packages\/flask\/testsuite\/templates\/escaping_template.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/flask\/testsuite\/templates\/escaping_template.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/env\/lib\/python2.7\/site-packages\/flask\/testsuite\/templates\/simple_template.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/flask\/testsuite\/templates\/simple_template.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/env\/lib\/python2.7\/site-packages\/flask\/testsuite\/templates\/template_filter.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/flask\/testsuite\/templates\/template_filter.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/env\/lib\/python2.7\/site-packages\/flask\/testsuite\/templates\/template_test.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/flask\/testsuite\/templates\/template_test.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/env\/lib\/python2.7\/site-packages\/flask\/testsuite\/test_apps\/blueprintapp\/apps\/admin\/static\/css\/test.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -74,83 +20,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/env\/lib\/python2.7\/site-packages\/flask\/testsuite\/test_apps\/blueprintapp\/apps\/admin\/templates\/admin\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/flask\/testsuite\/test_apps\/blueprintapp\/apps\/admin\/templates\/admin\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/env\/lib\/python2.7\/site-packages\/flask\/testsuite\/test_apps\/blueprintapp\/apps\/frontend\/templates\/frontend\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/flask\/testsuite\/test_apps\/blueprintapp\/apps\/frontend\/templates\/frontend\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/env\/lib\/python2.7\/site-packages\/flask\/testsuite\/test_apps\/moduleapp\/apps\/admin\/static\/css\/test.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/flask\/testsuite\/test_apps\/moduleapp\/apps\/admin\/static\/css\/test.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/env\/lib\/python2.7\/site-packages\/flask\/testsuite\/test_apps\/moduleapp\/apps\/admin\/templates\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/flask\/testsuite\/test_apps\/moduleapp\/apps\/admin\/templates\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/env\/lib\/python2.7\/site-packages\/flask\/testsuite\/test_apps\/moduleapp\/apps\/frontend\/templates\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/flask\/testsuite\/test_apps\/moduleapp\/apps\/frontend\/templates\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/env\/lib\/python2.7\/site-packages\/jinja2\/testsuite\/res\/templates\/broken.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/jinja2\/testsuite\/res\/templates\/broken.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/env\/lib\/python2.7\/site-packages\/jinja2\/testsuite\/res\/templates\/foo\/test.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/jinja2\/testsuite\/res\/templates\/foo\/test.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/env\/lib\/python2.7\/site-packages\/jinja2\/testsuite\/res\/templates\/syntaxerror.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/jinja2\/testsuite\/res\/templates\/syntaxerror.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/env\/lib\/python2.7\/site-packages\/jinja2\/testsuite\/res\/templates\/test.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/jinja2\/testsuite\/res\/templates\/test.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -390,25 +264,16 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/templates\/html.html": {
-		"fileType": 8192,
+	"\/static\/favicon.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/html.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/templates\/jsonp.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/templates\/jsonp.js",
-		"outputAbbreviatedPath": "\/templates\/min\/jsonp-ck.js",
+		"initialSize": 2136,
+		"inputAbbreviatedPath": "\/static\/favicon.png",
+		"outputAbbreviatedPath": "\/static\/favicon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"processed": 0
 		}
 	},
 "hooks": [

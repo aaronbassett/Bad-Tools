@@ -2,3 +2,4 @@ Flask==0.10.1
 gunicorn==19.0.0
 Flask-Classy==0.6.10
 pyaml==14.05.7
+-e git+https://bitbucket.org/DataGreed/pyga.git@e4476efdfc72b67a9ad89f485cdd605a13b566e5#egg=pyga-master
