@@ -1,11 +1,14 @@
 import random
+import os
 
 import yaml
+from pyga import FlaskGATracker
 
-from flask import Flask, jsonify, request, Response, render_template
+from flask import Flask, jsonify, request, Response, render_template, session
 from flask.ext.classy import FlaskView
 
 app = Flask(__name__)
+app.secret_key = os.environ["SECRET_KEY"]
 
 
 class AppView(FlaskView):
@@ -23,22 +26,27 @@ class AppView(FlaskView):
         return random.choice(excuses["excuses"])
 
     def index(self):
+        ga = FlaskGATracker('www.codingexcuses.com', 'UA-53020725-1')
 
         if self._accepts("application/json"):
+            ga.track("/json/", session)
             return jsonify({
                 "excuse": self._excuse
             })
         elif self._accepts("application/xml"):
+            ga.track("/xml/", session)
             return Response(
                 render_template('xml.xml', excuse=self._excuse),
                 mimetype='text/xml'
             )
         elif self._accepts("application/javascript") or "jsonp" in request.args:
+            ga.track("/jsonp/", session)
             return Response(
                 render_template('jsonp.js', excuse=self._excuse),
                 mimetype='application/javascript'
             )
         elif self._accepts("text/plain"):
+            ga.track("/text/", session)
             return Response("Hello world", mimetype='text/plain')
         else:
             return render_template('html.html', excuse=self._excuse)
