@@ -1,6 +1,5 @@
-import random
-import yaml
 from flask import jsonify, Response, render_template
+from utils import get_excuse
 
 
 class Which(object):
@@ -11,9 +10,7 @@ class Which(object):
 
     @property
     def _excuse(self):
-        stream = open("excuses.yaml", 'r')
-        excuses = yaml.load(stream)
-        return random.choice(excuses["excuses"])
+        return get_excuse()
 
     def get_response(self):
         if self.mime_type == "application/json":
