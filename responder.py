@@ -34,7 +34,7 @@ class Which(object):
             ), "/jsonp/"
 
         elif self.mime_type == "text/plain":
-            return Response("Hello world", mimetype='text/plain'), "/text/"
+            return Response(self._excuse, mimetype='text/plain'), "/text/"
 
         else:
             return render_template('html.html', excuse=self._excuse), "/html/"
