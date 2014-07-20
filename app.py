@@ -29,24 +29,24 @@ class AppView(FlaskView):
         ga = FlaskGATracker('www.codingexcuses.com', 'UA-53020725-1')
 
         if self._accepts("application/json"):
-            ga.track("/json/", session)
+            ga.track(request, session, path="/json/")
             return jsonify({
                 "excuse": self._excuse
             })
         elif self._accepts("application/xml"):
-            ga.track("/xml/", session)
+            ga.track(request, session, path="/xml/")
             return Response(
                 render_template('xml.xml', excuse=self._excuse),
                 mimetype='text/xml'
             )
         elif self._accepts("application/javascript") or "jsonp" in request.args:
-            ga.track("/jsonp/", session)
+            ga.track(request, session, path="/jsonp/")
             return Response(
                 render_template('jsonp.js', excuse=self._excuse),
                 mimetype='application/javascript'
             )
         elif self._accepts("text/plain"):
-            ga.track("/text/", session)
+            ga.track(request, session, path="/text/")
             return Response("Hello world", mimetype='text/plain')
         else:
             return render_template('html.html', excuse=self._excuse)
