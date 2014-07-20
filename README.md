@@ -59,3 +59,8 @@ You'll need to set an environment variable `SECRET_KEY` for the sessions to work
 
 _don't use that key though for obvious reasons_
 
+License
+-------
+
+http://aaron.mit-license.org/
+
