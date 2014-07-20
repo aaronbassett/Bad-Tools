@@ -14,11 +14,11 @@ excuses:
     - I had too many projects so I had to rush that feature
     - I'm still working on that
     - Why do they want it that way?
-    - The failovers must have failed
+    - The fail-overs must have failed
     - That's a character encoding issue
     - I thought that was signed off?
     - I've never seen that happen before
-    - It works in my dev enviroment
+    - It works in my dev environment
     - You mustn't have got my email about that, check your spam
     - That's just temporary, we're still working on it
     - I did a quick fix for that already, it must have been reverted
@@ -74,7 +74,7 @@ excuses:
     - It is unlikely to happen again
     - It was probably a race condition
     - That is a vendor issue
-    - The documenation for that feature is wrong
+    - The documentation for that feature is wrong
     - It's not a bug, it's a feature
     - That is how we were asked to build it
     - The program was never meant to work that way
@@ -105,13 +105,13 @@ excuses:
     - I was sure that had been fixed
     - The design makes it difficult to build this correctly
     - It works perfectly on my machine
-    - I never recevied a ticket for that
+    - I never received a ticket for that
     - It must be missing some dependencies
     - We outsourced that part
     - Well, I've never seen that before
     - It follows industry standards
     - That's an industry best practice
-    - We've not recevied any error notifications
+    - We've not received any error notifications
     - That's a feature
     - It must be an issue with the firewall
     - It's just a warning, not an error
@@ -133,9 +133,9 @@ excuses:
     - That feature is outside of the project scope
     - That's not in my job description
     - That's the fault of the designer
-    - That's the fault of the ux designer
-    - That's the fault of the ui designer
-    - There's only a one in a million change of that error occuring
+    - That's the fault of the UX designer
+    - That's the fault of the UI designer
+    - There's only a one in a million change of that error occurring
     - I don't remember that in the original specification
     - The client requested that change
     - That's an issue with our legacy software
