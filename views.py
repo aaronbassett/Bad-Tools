@@ -11,21 +11,26 @@ app.secret_key = os.environ["SECRET_KEY"]
 
 class AppView(FlaskView):
     route_base = '/'
-    accepts = ["application/json", "application/xml", "application/javascript", "text/plain"]
+    accepts = ["application/json", "application/xml",
+               "application/javascript", "text/plain"]
 
     def _accepts(self, mime):
-        best = request.accept_mimetypes.best_match([mime, 'text/html'])
-        return best == mime and\
-               request.accept_mimetypes[best] > request.accept_mimetypes['text/html']
+        types = request.accept_mimetypes
+        best = types.best_match([mime, 'text/html'])
+
+        return best == mime and types[best] > types['text/html']
 
     def index(self):
         ga = FlaskGATracker('www.codingexcuses.com', 'UA-53020725-1')
 
         for method in self.accepts:
             if self._accepts(method):
-                response, path = Which(method, request.args).get_response()
-                ga.track(request, session, path=path)
+                response, path = Which(
+                    method,
+                    request.args
+                ).get_response()
 
+                ga.track(request, session, path=path)
                 return response
 
         # Assume it's a browser
