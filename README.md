@@ -7,7 +7,7 @@ Bad Tools
 
 Blame your tools, blame the vendors, blame your workmates. Just as long as it is not your fault. Take the effort out of shifting the blame by using one of these ultra handy pre-written excuses.
 
-The excuses are available in every format you could need so you can be properly lazy.
+The excuses are available in every format you could need so you can be properly lazy. For some basic examples of how to scrape the excuses see the [examples](examples/).
 
 Plain Text
 ----------
