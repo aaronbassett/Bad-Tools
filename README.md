@@ -12,7 +12,7 @@ The excuses are available in every format you could need so you can be properly 
 Plain Text
 ----------
 
-    curl -X GET "http://codingexcuses.com/" \
+    curl -X GET "http://www.codingexcuses.com/" \
      -H "Accept: text/plain" \
      -m 30 \
      -v \
@@ -20,7 +20,7 @@ Plain Text
 JSON
 ----
 
-    curl -X GET "http://codingexcuses.com/" \
+    curl -X GET "http://www.codingexcuses.com/" \
      -H "Accept: application/json" \
      -m 30 \
      -v \
@@ -28,7 +28,7 @@ JSON
 XML
 ---
 
-    curl -X GET "http://codingexcuses.com/" \
+    curl -X GET "http://www.codingexcuses.com/" \
      -H "Accept: application/xml" \
      -m 30 \
      -v \
@@ -36,19 +36,19 @@ XML
 JSONP
 -----
 
-    curl -X GET "http://codingexcuses.com/" \
+    curl -X GET "http://www.codingexcuses.com/" \
      -H "Accept: application/javascript" \
      -m 30 \
      -v \
 
 Or you can pass in the query string argument `?jsonp`
 
-    <script src="http://codingexcuses.com/?jsonp"></script>
+    <script src="http://www.codingexcuses.com/?jsonp"></script>
 
 And of course HTML
 ------------------
 
-    curl -X GET "http://codingexcuses.com/" \
+    curl -X GET "http://www.codingexcuses.com/" \
      -m 30 \
      -v \
 
