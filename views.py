@@ -3,7 +3,7 @@ from pyga import FlaskGATracker
 from flask import Flask, request, session
 from flask.ext.classy import FlaskView
 
-from responder import Which
+from excuses.responder import Which
 
 app = Flask(__name__)
 app.secret_key = os.environ["SECRET_KEY"]
