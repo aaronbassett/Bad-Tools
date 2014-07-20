@@ -49,3 +49,13 @@ And of course HTML
     curl -X GET "http://codingexcuses.com/" \
      -m 30 \
      -v \
+
+Configuration
+-------------
+
+You'll need to set an environment variable `SECRET_KEY` for the sessions to work.
+
+    export SECRET_KEY="ct=!)09l4)hl8gmwgid%(q*z3uf(+c9ra7@(10ni!x1%f6vlxc"
+
+_don't use that key though for obvious reasons_
+
