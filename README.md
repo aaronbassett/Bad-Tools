@@ -52,6 +52,13 @@ And of course HTML
      -m 30 \
      -v \
 
+What if my boss sees!?
+----------------------
+
+The site also supports **https**, but you'll have to ignore the certificate.
+
+    curl "https://www.codingexcuses.com/" -H "Accept: text/plain" --insecure
+
 Configuration
 -------------
 
