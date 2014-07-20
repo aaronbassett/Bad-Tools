@@ -108,3 +108,49 @@ excuses:
     - I never recevied a ticket for that
     - It must be missing some dependencies
     - We outsourced that part
+    - Well, I've never seen that before
+    - It follows industry standards
+    - That's an industry best practice
+    - We've not recevied any error notifications
+    - That's a feature
+    - It must be an issue with the firewall
+    - It's just a warning, not an error
+    - That output is only wrong half the time
+    - We broke that deliberately to test it
+    - I couldn't find any library that can do that
+    - We've not been able to reproduce the problem
+    - We must have been stress testing the server
+    - It can't be broken, all the unittests pass
+    - It must just be a coincidence
+    - Our users need more training
+    - It works, but it's not been tested
+    - We didn't have the budget to build it properly
+    - It must be a problem with your internet connection
+    - The behaviour is in the original specification
+    - It was only a small change, I didn't think it needed tests
+    - The last guy wrote that part
+    - That feature isn't due in this phase
+    - That feature is outside of the project scope
+    - That's not in my job description
+    - That's the fault of the designer
+    - That's the fault of the ux designer
+    - That's the fault of the ui designer
+    - There's only a one in a million change of that error occuring
+    - I don't remember that in the original specification
+    - The client requested that change
+    - That's an issue with our legacy software
+    - There must have been a problem with the request
+    - The browser must have dropped some packets
+    - That code wasn't meant to be in production
+    - Someone must have left some test code in
+    - We didn't have time to send that to QA
+    - That software should have been updated ages ago
+    - I'm sure that was written by a freelancer
+    - We contracted that work out months ago
+    - Are you sure you want it to work that way?
+    - That code is still in progress
+    - That is just a placeholder
+    - That works at least 80% of the time
+    - I'm pretty sure that works most of the time
+    - That's still a work in progress
+    - I'm pretty sure that's the way it is meant to work
