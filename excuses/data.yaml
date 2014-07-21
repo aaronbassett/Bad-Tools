@@ -154,3 +154,12 @@ excuses:
     - I'm pretty sure that works most of the time
     - That's still a work in progress
     - I'm pretty sure that's the way it is meant to work
+    - Your email regarding that issue must have hit my spam filter
+    - That issue was filed under a different release version
+    - I was busy fixing more important issues
+    - This wasn't filed in the issue tracker
+    - The issue tracker was updated, and some issues were lost
+    - The dev that worked here for a week? Yeah, he wrote that
+    - It's not like I can't write that fix in like 5 minutes
+    - The client requested an XML response, but JSON is clearly better
+    - It's most likely a forwarding proxy server that is caching the response
