@@ -5,6 +5,9 @@ Bad Tools
 
 [![Build Status](https://travis-ci.org/aaronbassett/Bad-Tools.svg?branch=master)](https://travis-ci.org/aaronbassett/Bad-Tools)
 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+
 Blame your tools, blame the vendors, blame your workmates. Just as long as it is not your fault. Take the effort out of shifting the blame by using one of these ultra handy pre-written excuses.
 
 The excuses are available in every format you could need so you can be properly lazy. For some basic examples of how to use the excuses in your code code see the [examples](examples/).

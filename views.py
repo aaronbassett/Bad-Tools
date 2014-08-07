@@ -6,7 +6,7 @@ from flask.ext.classy import FlaskView
 from excuses.responder import Which
 
 app = Flask(__name__)
-app.secret_key = os.environ["SECRET_KEY"]
+app.secret_key = os.environ.get("SECRET_KEY", ":(")
 
 
 class AppView(FlaskView):
