@@ -1,0 +1,6 @@
+{
+  "name": "Coding Excuses",
+  "description": "Excuses for programmers",
+  "repository": "https://github.com/aaronbassett/Bad-Tools",
+  "keywords": ["python", "flask", "excuses"]
+}
