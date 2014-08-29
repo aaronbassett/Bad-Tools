@@ -163,3 +163,4 @@ excuses:
     - It's not like I can't write that fix in like 5 minutes
     - The client requested an XML response, but JSON is clearly better
     - It's most likely a forwarding proxy server that is caching the response
+    - That's unlikely to be enterprise scalable
