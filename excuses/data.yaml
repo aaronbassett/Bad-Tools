@@ -72,7 +72,6 @@ excuses:
     - Have you updated your browser?
     - Have you updated your OS?
     - It is unlikely to happen again
-    - It was probably a race condition
     - That is a vendor issue
     - The documentation for that feature is wrong
     - It's not a bug, it's a feature
